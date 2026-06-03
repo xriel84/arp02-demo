@@ -1,0 +1,1207 @@
+{
+  "file": "avatar_boss.glb",
+  "objects": [
+    {
+      "name": "Armature",
+      "type": "ARMATURE",
+      "parent": null,
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Human.eyebrow001_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 124,
+      "polygons": 192,
+      "has_shape_keys": true,
+      "shape_key_count": 43,
+      "shape_key_names": [
+        "Basis",
+        "viseme_aa",
+        "viseme_E",
+        "viseme_I",
+        "viseme_kk",
+        "viseme_O",
+        "viseme_SS",
+        "browDownLeft",
+        "browDownRight",
+        "browInnerUp"
+      ],
+      "shape_key_total": 43,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.eyebrow001",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.eyelashes01_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 250,
+      "polygons": 368,
+      "has_shape_keys": true,
+      "shape_key_count": 19,
+      "shape_key_names": [
+        "Basis",
+        "browDownRight",
+        "browDownLeft",
+        "eyeSquintRight",
+        "eyeLookOutLeft",
+        "eyeWideLeft",
+        "eyeLookOutRight",
+        "cheekSquintLeft",
+        "eyeBlinkLeft",
+        "eyeLookUpLeft"
+      ],
+      "shape_key_total": 19,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.eyelashes01",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.high-poly_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 1076,
+      "polygons": 2040,
+      "has_shape_keys": true,
+      "shape_key_count": 9,
+      "shape_key_names": [
+        "Basis",
+        "eyeLookOutLeft",
+        "eyeLookOutRight",
+        "eyeLookUpLeft",
+        "eyeLookDownRight",
+        "eyeLookInRight",
+        "eyeLookDownLeft",
+        "eyeLookUpRight",
+        "eyeLookInLeft"
+      ],
+      "shape_key_total": 9,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.high-poly",
+          "use_nodes": true,
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "has_texture_link": false
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.male_casualsuit01_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 8864,
+      "polygons": 16672,
+      "has_shape_keys": false,
+      "shape_key_count": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.male_casualsuit01.001",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.short01_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 3050,
+      "polygons": 3678,
+      "has_shape_keys": true,
+      "shape_key_count": 34,
+      "shape_key_names": [
+        "Basis",
+        "viseme_aa",
+        "viseme_E",
+        "viseme_FF",
+        "viseme_I",
+        "viseme_kk",
+        "viseme_nn",
+        "viseme_O",
+        "viseme_PP",
+        "viseme_RR"
+      ],
+      "shape_key_total": 34,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.short01",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.teeth_base_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4494,
+      "polygons": 7120,
+      "has_shape_keys": true,
+      "shape_key_count": 13,
+      "shape_key_names": [
+        "Basis",
+        "jawRight",
+        "jawForward",
+        "jawLeft",
+        "viseme_PP",
+        "viseme_DD",
+        "viseme_aa",
+        "viseme_kk",
+        "viseme_nn",
+        "viseme_TH"
+      ],
+      "shape_key_total": 13,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.teeth_base",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.tongue01_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 253,
+      "polygons": 448,
+      "has_shape_keys": true,
+      "shape_key_count": 12,
+      "shape_key_names": [
+        "Basis",
+        "jawRight",
+        "jawForward",
+        "tongueOut",
+        "jawLeft",
+        "viseme_PP",
+        "viseme_aa",
+        "viseme_kk",
+        "viseme_TH",
+        "viseme_E"
+      ],
+      "shape_key_total": 12,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.tongue01",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 11072,
+      "polygons": 20028,
+      "has_shape_keys": true,
+      "shape_key_count": 68,
+      "shape_key_names": [
+        "Basis",
+        "viseme_aa",
+        "viseme_CH",
+        "viseme_DD",
+        "viseme_E",
+        "viseme_FF",
+        "viseme_I",
+        "viseme_kk",
+        "viseme_nn",
+        "viseme_O"
+      ],
+      "shape_key_total": 68,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.body",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Icosphere",
+      "type": "MESH",
+      "parent": null,
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 42,
+      "polygons": 80,
+      "has_shape_keys": false,
+      "shape_key_count": 0,
+      "modifiers": [],
+      "materials": [],
+      "vertex_group_count": 0,
+      "vertex_groups_sample": []
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Human.eyebrow001_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 124,
+      "polygons": 192,
+      "has_shape_keys": true,
+      "shape_key_count": 43,
+      "shape_key_names": [
+        "Basis",
+        "viseme_aa",
+        "viseme_E",
+        "viseme_I",
+        "viseme_kk",
+        "viseme_O",
+        "viseme_SS",
+        "browDownLeft",
+        "browDownRight",
+        "browInnerUp"
+      ],
+      "shape_key_total": 43,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.eyebrow001",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.eyelashes01_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 250,
+      "polygons": 368,
+      "has_shape_keys": true,
+      "shape_key_count": 19,
+      "shape_key_names": [
+        "Basis",
+        "browDownRight",
+        "browDownLeft",
+        "eyeSquintRight",
+        "eyeLookOutLeft",
+        "eyeWideLeft",
+        "eyeLookOutRight",
+        "cheekSquintLeft",
+        "eyeBlinkLeft",
+        "eyeLookUpLeft"
+      ],
+      "shape_key_total": 19,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.eyelashes01",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.high-poly_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 1076,
+      "polygons": 2040,
+      "has_shape_keys": true,
+      "shape_key_count": 9,
+      "shape_key_names": [
+        "Basis",
+        "eyeLookOutLeft",
+        "eyeLookOutRight",
+        "eyeLookUpLeft",
+        "eyeLookDownRight",
+        "eyeLookInRight",
+        "eyeLookDownLeft",
+        "eyeLookUpRight",
+        "eyeLookInLeft"
+      ],
+      "shape_key_total": 9,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.high-poly",
+          "use_nodes": true,
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "has_texture_link": false
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.male_casualsuit01_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 8864,
+      "polygons": 16672,
+      "has_shape_keys": false,
+      "shape_key_count": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.male_casualsuit01.001",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.short01_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 3050,
+      "polygons": 3678,
+      "has_shape_keys": true,
+      "shape_key_count": 34,
+      "shape_key_names": [
+        "Basis",
+        "viseme_aa",
+        "viseme_E",
+        "viseme_FF",
+        "viseme_I",
+        "viseme_kk",
+        "viseme_nn",
+        "viseme_O",
+        "viseme_PP",
+        "viseme_RR"
+      ],
+      "shape_key_total": 34,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.short01",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.teeth_base_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4494,
+      "polygons": 7120,
+      "has_shape_keys": true,
+      "shape_key_count": 13,
+      "shape_key_names": [
+        "Basis",
+        "jawRight",
+        "jawForward",
+        "jawLeft",
+        "viseme_PP",
+        "viseme_DD",
+        "viseme_aa",
+        "viseme_kk",
+        "viseme_nn",
+        "viseme_TH"
+      ],
+      "shape_key_total": 13,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.teeth_base",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human.tongue01_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 253,
+      "polygons": 448,
+      "has_shape_keys": true,
+      "shape_key_count": 12,
+      "shape_key_names": [
+        "Basis",
+        "jawRight",
+        "jawForward",
+        "tongueOut",
+        "jawLeft",
+        "viseme_PP",
+        "viseme_aa",
+        "viseme_kk",
+        "viseme_TH",
+        "viseme_E"
+      ],
+      "shape_key_total": 12,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.tongue01",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Human_export",
+      "type": "MESH",
+      "parent": "Armature",
+      "visible": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 11072,
+      "polygons": 20028,
+      "has_shape_keys": true,
+      "shape_key_count": 68,
+      "shape_key_names": [
+        "Basis",
+        "viseme_aa",
+        "viseme_CH",
+        "viseme_DD",
+        "viseme_E",
+        "viseme_FF",
+        "viseme_I",
+        "viseme_kk",
+        "viseme_nn",
+        "viseme_O"
+      ],
+      "shape_key_total": 68,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Human.body",
+          "use_nodes": true,
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "has_texture_link": true
+        }
+      ],
+      "vertex_group_count": 76,
+      "vertex_groups_sample": [
+        "Hips",
+        "LeftUpLeg",
+        "LeftButtock",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "LeftToe_End",
+        "RightUpLeg",
+        "RightButtock",
+        "RightLeg"
+      ]
+    },
+    {
+      "name": "Icosphere",
+      "type": "MESH",
+      "parent": null,
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 42,
+      "polygons": 80,
+      "has_shape_keys": false,
+      "shape_key_count": 0,
+      "modifiers": [],
+      "materials": [],
+      "vertex_group_count": 0,
+      "vertex_groups_sample": []
+    }
+  ],
+  "materials": [],
+  "skeleton": {
+    "armature_name": "Armature",
+    "bone_count": 76,
+    "bone_names_first_20": [
+      "Hips",
+      "LeftUpLeg",
+      "LeftButtock",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToeBase",
+      "LeftToe_End",
+      "RightUpLeg",
+      "RightButtock",
+      "RightLeg",
+      "RightFoot",
+      "RightToeBase",
+      "RightToe_End",
+      "Spine",
+      "Spine1",
+      "LeftBreast",
+      "RightBreast",
+      "Spine2",
+      "LeftShoulder",
+      "LeftArm"
+    ],
+    "bone_names_all": [
+      "Hips",
+      "LeftUpLeg",
+      "LeftButtock",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToeBase",
+      "LeftToe_End",
+      "RightUpLeg",
+      "RightButtock",
+      "RightLeg",
+      "RightFoot",
+      "RightToeBase",
+      "RightToe_End",
+      "Spine",
+      "Spine1",
+      "LeftBreast",
+      "RightBreast",
+      "Spine2",
+      "LeftShoulder",
+      "LeftArm",
+      "LeftForeArm",
+      "LeftHand",
+      "LeftHandIndex1",
+      "LeftHandIndex2",
+      "LeftHandIndex3",
+      "LeftHandIndex4",
+      "LeftHandMiddle1",
+      "LeftHandMiddle2",
+      "LeftHandMiddle3",
+      "LeftHandMiddle4",
+      "LeftHandPinky1",
+      "LeftHandPinky2",
+      "LeftHandPinky3",
+      "LeftHandPinky4",
+      "LeftHandRing1",
+      "LeftHandRing2",
+      "LeftHandRing3",
+      "LeftHandRing4",
+      "LeftHandThumb1",
+      "LeftHandThumb2",
+      "LeftHandThumb3",
+      "LeftHandThumb4",
+      "Neck",
+      "Head",
+      "HeadTop_End",
+      "Jaw",
+      "LeftEye",
+      "LeftOrbicularisBottom",
+      "LeftOrbicularisTop",
+      "RightEye",
+      "RightOrbicularisBottom",
+      "RightOrbicularisTop",
+      "RightShoulder",
+      "RightArm",
+      "RightForeArm",
+      "RightHand",
+      "RightHandIndex1",
+      "RightHandIndex2",
+      "RightHandIndex3",
+      "RightHandIndex4",
+      "RightHandMiddle1",
+      "RightHandMiddle2",
+      "RightHandMiddle3",
+      "RightHandMiddle4",
+      "RightHandPinky1",
+      "RightHandPinky2",
+      "RightHandPinky3",
+      "RightHandPinky4",
+      "RightHandRing1",
+      "RightHandRing2",
+      "RightHandRing3",
+      "RightHandRing4",
+      "RightHandThumb1",
+      "RightHandThumb2",
+      "RightHandThumb3",
+      "RightHandThumb4"
+    ],
+    "spine_path": [
+      {
+        "name": "Hips",
+        "head": [
+          0.004,
+          -0.0283,
+          1.0
+        ],
+        "tail": [
+          0.0004,
+          -0.0235,
+          1.116
+        ]
+      },
+      {
+        "name": "Spine",
+        "head": [
+          0.0,
+          -0.0229,
+          1.1297
+        ],
+        "tail": [
+          0.0,
+          -0.0193,
+          1.2527
+        ]
+      },
+      {
+        "name": "Spine1",
+        "head": [
+          0.0,
+          -0.0193,
+          1.2527
+        ],
+        "tail": [
+          0.0,
+          -0.022,
+          1.3594
+        ]
+      },
+      {
+        "name": "Spine2",
+        "head": [
+          0.0,
+          -0.022,
+          1.3594
+        ],
+        "tail": [
+          -0.0,
+          -0.0205,
+          1.4471
+        ]
+      },
+      {
+        "name": "Neck",
+        "head": [
+          -0.0,
+          -0.0189,
+          1.5393
+        ],
+        "tail": [
+          -0.0,
+          -0.0175,
+          1.6095
+        ]
+      },
+      {
+        "name": "Head",
+        "head": [
+          0.0011,
+          -0.0402,
+          1.6062
+        ],
+        "tail": [
+          0.0009,
+          -0.0431,
+          1.6708
+        ]
+      }
+    ],
+    "finger_bones": [
+      "LeftHand",
+      "LeftHandIndex1",
+      "LeftHandIndex2",
+      "LeftHandIndex3",
+      "LeftHandIndex4",
+      "LeftHandMiddle1",
+      "LeftHandMiddle2",
+      "LeftHandMiddle3",
+      "LeftHandMiddle4",
+      "LeftHandPinky1",
+      "LeftHandPinky2",
+      "LeftHandPinky3",
+      "LeftHandPinky4",
+      "LeftHandRing1",
+      "LeftHandRing2",
+      "LeftHandRing3",
+      "LeftHandRing4",
+      "LeftHandThumb1",
+      "LeftHandThumb2",
+      "LeftHandThumb3",
+      "LeftHandThumb4",
+      "RightHand",
+      "RightHandIndex1",
+      "RightHandIndex2",
+      "RightHandIndex3",
+      "RightHandIndex4",
+      "RightHandMiddle1",
+      "RightHandMiddle2",
+      "RightHandMiddle3",
+      "RightHandMiddle4",
+      "RightHandPinky1",
+      "RightHandPinky2",
+      "RightHandPinky3",
+      "RightHandPinky4",
+      "RightHandRing1",
+      "RightHandRing2",
+      "RightHandRing3",
+      "RightHandRing4",
+      "RightHandThumb1",
+      "RightHandThumb2",
+      "RightHandThumb3",
+      "RightHandThumb4"
+    ],
+    "root_bone": "Hips",
+    "root_position": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}
