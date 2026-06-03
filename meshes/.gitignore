@@ -1,0 +1,7 @@
+# Intermediate/raw mesh files
+*_raw.glb
+*_blender.glb
+*_simplified.glb
+*.gltf
+!manifest.json
+!scene-layout.json

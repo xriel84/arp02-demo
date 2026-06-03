@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "pipeline": "hunyuan3d-2.1-native",
+  "scene": "raptor-building",
+  "generated_at": "2026-04-02T12:26:00Z",
+  "assets": [
+    {
+      "id": "ari",
+      "agent_id": "ari",
+      "source_image": "al_ari_M-C_still_00001.png",
+      "glb": "/meshes/ari.glb",
+      "file_size_kb": 19,
+      "role": "lead"
+    },
+    {
+      "id": "aribot",
+      "agent_id": "aribot",
+      "source_image": "al_aribot_M-C_still_00001.png",
+      "glb": "/meshes/aribot.glb",
+      "file_size_kb": 18,
+      "role": "bot_skin"
+    },
+    {
+      "id": "edbot",
+      "agent_id": "edbot",
+      "source_image": "al_edbot_W-C_still_00001.png",
+      "glb": "/meshes/edbot.glb",
+      "file_size_kb": 36,
+      "role": "bot_skin"
+    },
+    {
+      "id": "anabot",
+      "agent_id": "anabot",
+      "source_image": "al_anabot_M-C_still_00001.png",
+      "glb": "/meshes/anabot.glb",
+      "file_size_kb": 16,
+      "role": "bot_skin"
+    },
+    {
+      "id": "artbot",
+      "agent_id": "artbot",
+      "source_image": "al_artbot_M-C_still_00001.png",
+      "glb": "/meshes/artbot.glb",
+      "file_size_kb": 24,
+      "role": "office"
+    },
+    {
+      "id": "alex",
+      "agent_id": "alex",
+      "source_image": "al_alex_M-C_still_00001.png",
+      "glb": "/meshes/alex.glb",
+      "file_size_kb": 18,
+      "role": "character"
+    }
+  ]
+}

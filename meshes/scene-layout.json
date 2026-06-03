@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "source": "raptor-building.html",
+  "building": {
+    "floors": 4,
+    "units_per_floor": 3,
+    "width_units": 20,
+    "camera_default": { "position": [0, 6, 25], "lookAt": [0, 6, 0] }
+  },
+  "floors": [
+    {
+      "id": 1,
+      "name": "PRODUCTION",
+      "color": "#cc4444",
+      "y_offset": 0,
+      "bot_skin": "aribot",
+      "lead_skin": "ari",
+      "offices": [
+        { "index": 0, "agent_id": "ari", "label": "Production Lead", "x": -8.75 },
+        { "index": 1, "agent_id": "tonebot", "label": "ToneBot", "x": -6.25 },
+        { "index": 2, "agent_id": "artbot", "label": "ArtBot", "x": -3.75 },
+        { "index": 3, "agent_id": "filmbot", "label": "FilmBot", "x": -1.25 },
+        { "index": 4, "agent_id": "meshbot", "label": "MeshBot", "x": 1.25 },
+        { "index": 5, "agent_id": "trainbot", "label": "TrainBot", "x": 3.75 },
+        { "index": 6, "agent_id": null, "label": "[PLACEHOLDER]", "x": 6.25 },
+        { "index": 7, "agent_id": null, "label": "[PLACEHOLDER]", "x": 8.75 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ENGINEERING",
+      "color": "#44aa77",
+      "y_offset": 3,
+      "bot_skin": "edbot",
+      "lead_skin": "ari",
+      "offices": [
+        { "index": 0, "agent_id": "codebot", "label": "CodeBot", "x": -8.75 },
+        { "index": 1, "agent_id": "libabot", "label": "LibABot", "x": -6.25 },
+        { "index": 2, "agent_id": "lineage", "label": "Lineage Lab", "x": -3.75 },
+        { "index": 3, "agent_id": "camerarig", "label": "Camera Rig", "x": -1.25 },
+        { "index": 4, "agent_id": null, "label": "[PLACEHOLDER]", "x": 1.25 },
+        { "index": 5, "agent_id": null, "label": "[PLACEHOLDER]", "x": 3.75 },
+        { "index": 6, "agent_id": null, "label": "[PLACEHOLDER]", "x": 6.25 },
+        { "index": 7, "agent_id": null, "label": "[PLACEHOLDER]", "x": 8.75 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "LIVESTREAM",
+      "color": "#ccaa44",
+      "y_offset": 6,
+      "bot_skin": "anabot",
+      "lead_skin": "ari",
+      "offices": [
+        { "index": 0, "agent_id": "streamdeck", "label": "Stream Deck", "x": -8.75 },
+        { "index": 1, "agent_id": "vrstage", "label": "VR Stage", "x": -6.25 },
+        { "index": 2, "agent_id": "greenroom", "label": "Green Room", "x": -3.75 },
+        { "index": 3, "agent_id": "raptorbot", "label": "RaptorBot", "x": -1.25 },
+        { "index": 4, "agent_id": "audiomix", "label": "Audio Mix", "x": 1.25 },
+        { "index": 5, "agent_id": "chatmod", "label": "Chat Mod", "x": 3.75 },
+        { "index": 6, "agent_id": "replays", "label": "Replays", "x": 6.25 },
+        { "index": 7, "agent_id": "overlays", "label": "Overlays", "x": 8.75 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "DISTRIBUTION",
+      "color": "#4488cc",
+      "y_offset": 9,
+      "bot_skin": "aribot",
+      "lead_skin": "ari",
+      "offices": [
+        { "index": 0, "agent_id": "anabot", "label": "AnaBot", "x": -8.75 },
+        { "index": 1, "agent_id": "edbot", "label": "EdBot", "x": -6.25 },
+        { "index": 2, "agent_id": null, "label": "[PLACEHOLDER]", "x": -3.75 },
+        { "index": 3, "agent_id": null, "label": "[PLACEHOLDER]", "x": -1.25 },
+        { "index": 4, "agent_id": null, "label": "[PLACEHOLDER]", "x": 1.25 },
+        { "index": 5, "agent_id": null, "label": "[PLACEHOLDER]", "x": 3.75 },
+        { "index": 6, "agent_id": null, "label": "[PLACEHOLDER]", "x": 6.25 },
+        { "index": 7, "agent_id": null, "label": "[PLACEHOLDER]", "x": 8.75 }
+      ]
+    }
+  ],
+  "mesh_registry": {
+    "ari":    { "source": "al_ari_M-C_still_00001.png",    "glb": "ari.glb",    "role": "lead" },
+    "aribot": { "source": "al_aribot_M-C_still_00001.png", "glb": "aribot.glb", "role": "bot_skin" },
+    "edbot":  { "source": "al_edbot_W-C_still_00001.png",  "glb": "edbot.glb",  "role": "bot_skin" },
+    "anabot": { "source": "al_anabot_M-C_still_00001.png", "glb": "anabot.glb", "role": "bot_skin" },
+    "artbot": { "source": "al_artbot_M-C_still_00001.png", "glb": "artbot.glb", "role": "office" },
+    "alex":   { "source": "al_alex_M-C_still_00001.png",   "glb": "alex.glb",   "role": "character" }
+  },
+  "instancing_rules": {
+    "lead": "ari.glb placed once per floor at office index 0 (or dedicated lead position)",
+    "bot_skin": "Floor's bot_skin mesh fills any office with null agent_id or no unique mesh",
+    "office": "Agent with unique mesh uses their own GLB at their assigned office position"
+  }
+}
